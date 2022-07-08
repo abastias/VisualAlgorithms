@@ -15,13 +15,13 @@ public partial class KnightsTour
     public int CurrentKnightStep{ get; set; } = 0;
     public int SpeedSingleStep{ get; set; } = 10;
     
-
     public KnightsTour()
     {
         for (int x = 0; x < 100; x++)
             for (int y = 0; y < 100; y++)
                 Board[x, y] = -1;
         Board[InitX, InitY]=0;
+        
     }
 
     public async Task<bool> solveKT()
@@ -54,6 +54,7 @@ public partial class KnightsTour
 
         return true;
     }
+
 
     public async Task<bool> solveKTUtil(int x, int y, int movei,
                           int[] xMove,
