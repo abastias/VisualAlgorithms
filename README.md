@@ -18,7 +18,7 @@ This project is completely open-souce. It was created using VSCode and Blazor/.N
     
 # Algorithms
 - The Knight's Tour (Simple approach)
-- Sorting Algorithms : Bubble Sort and selection Sort.
+- Sorting Algorithms : Bubble and Selection Sort.
 
   
 # Contributors
