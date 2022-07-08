@@ -14,6 +14,11 @@ This project is completely open-souce. It was create using VSCode and Blazor/.NE
   The project has been deployed to azure web service. You can see the solution here:
   https://VisualAlgorithms.azurewebsites.net
   
+# Algorithms
+- The Knight's Tour
+- Sorting Algorithms : Bubble Sort and selection Sort.
+
+  
 # Contributors
   Your are invited to collaborate with this project to help other to undesrand algorithms.
   - Please pickup your favourite algorithms.
