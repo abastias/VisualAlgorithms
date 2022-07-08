@@ -12,7 +12,7 @@ This project is completely open-souce. It was create using VSCode and Blazor/.NE
     
 ## Website
   You can the web solution here:
-  https://VisualAlgortims.azurewebsites.net
+  https://VisualAlgorithms.azurewebsites.net
   
 # Contributors
   Your are invited to collaborate with this project to help other to undesrand algorithms.
