@@ -1,7 +1,7 @@
 # Visual Algorithms
 Seeing an execution of any algorithm in visual form allows students to better understand the advantages and disadvantages in the context of use.
 
-#Framework
+# Framework
 This project is completely open-souce. It was create using VSCode and Blazor/.NET Core 6 LTS
 
 ## The project was created from an empty folder using the command
