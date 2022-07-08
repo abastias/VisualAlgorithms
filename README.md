@@ -11,7 +11,7 @@ This project is completely open-souce. It was create using VSCode and Blazor/.NE
     dotnet watch run
     
 ## Website
-  You can the web solution here:
+  The project has been deployed to azure web service. You can see the solution here:
   https://VisualAlgorithms.azurewebsites.net
   
 # Contributors
