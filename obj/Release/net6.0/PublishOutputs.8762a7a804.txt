@@ -1,7 +1,0 @@
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\VisualAlgorithms.exe
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\appsettings.Development.json
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\appsettings.json
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\VisualAlgorithms.dll
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\VisualAlgorithms.deps.json
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\VisualAlgorithms.runtimeconfig.json
-C:\Users\abast\source\repos\VisualAlgorithms\bin\Release\net6.0\publish\VisualAlgorithms.pdb
