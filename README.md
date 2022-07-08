@@ -13,7 +13,9 @@ This project is completely open-souce. It was created using VSCode and Blazor/.N
 ## Website
   The project has been deployed to azure web service. You can see the solution here:
   https://VisualAlgorithms.azurewebsites.net
-  
+    
+  ![Alt text](wwwroot/images/KnightsTour.png?raw=true "The Knight's Tour")
+    
 # Algorithms
 - The Knight's Tour (Simple approach)
 - Sorting Algorithms : Bubble Sort and selection Sort.
