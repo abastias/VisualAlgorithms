@@ -22,8 +22,8 @@ This project is completely open-souce. It was create using VSCode and Blazor/.NE
 # Contributors
   Your are invited to collaborate with this project to help other to undesrand algorithms.
   - Please pickup your favourite algorithms.
-  - Create or improve a Razor component.
-  - Create a basic interaction with input and excution buttos.
+  - Create or improve a razor component.
+  - Create a minimun interaction with input boxers and excution buttons.
   - Make sure the razor is accesible from the side menu bar.
   
 
