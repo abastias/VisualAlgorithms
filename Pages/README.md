@@ -17,4 +17,5 @@ A Sorting Algorithm is used to rearrange a given array or list elements accordin
 Thi is simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. 
 This algorithm is not suitable for large data sets as its average and worst case time complexity is quite high.
 ### Selection Sort
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning.
 
