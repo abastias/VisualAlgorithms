@@ -26,6 +26,8 @@ The knight's tour problem is the mathematical problem of finding a knight's tour
 ## Sort
 A Sorting Algorithm is used to rearrange a given array or list elements according to a comparison operator on the elements. The comparison operator is used to decide the new order of elements in the respective data structure.
 
+<img src="/wwwroot/images/Sort.png" width="300">
+
 ### Bubble Sort
 Thi is simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order. 
 This algorithm is not suitable for large data sets as its average and worst case time complexity is quite high.
