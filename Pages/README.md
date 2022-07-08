@@ -1,8 +1,10 @@
-# Getting Started with this Project
-This project was create VSCode and Balzore 
+# Algorithms
+This project has the next algoritms
 
-New peoject 
-dotnet new blazorserver -f net6.0
+## The Knight's Tour
 
-Run the project 
-dotnet watch run
+## Sort
+Two well-know 
+### Bubble Sort
+### Selection Sort
+
