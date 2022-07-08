@@ -78,68 +78,35 @@
         }
       },
       {
-        "HashCode": -1211520344,
+        "HashCode": -728416698,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Counter",
+        "Name": "VisualAlgorithms.Pages.Credits",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Counter"
+            "TagName": "Credits"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Counter"
+          "Common.TypeName": "VisualAlgorithms.Pages.Credits"
         }
       },
       {
-        "HashCode": 1034396477,
+        "HashCode": 52462246,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Counter",
+        "Name": "VisualAlgorithms.Pages.Credits",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VisualAlgorithms.Pages.Counter"
+            "TagName": "VisualAlgorithms.Pages.Credits"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -554766938,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.FetchData",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -75172382,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.FetchData",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VisualAlgorithms.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.FetchData",
+          "Common.TypeName": "VisualAlgorithms.Pages.Credits",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -177,68 +144,101 @@
         }
       },
       {
-        "HashCode": -728416698,
+        "HashCode": -554766938,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Credits",
+        "Name": "VisualAlgorithms.Pages.FetchData",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Credits"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Credits"
+          "Common.TypeName": "VisualAlgorithms.Pages.FetchData"
         }
       },
       {
-        "HashCode": 52462246,
+        "HashCode": -75172382,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Credits",
+        "Name": "VisualAlgorithms.Pages.FetchData",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VisualAlgorithms.Pages.Credits"
+            "TagName": "VisualAlgorithms.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Credits",
+          "Common.TypeName": "VisualAlgorithms.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
       {
-        "HashCode": 1191760599,
+        "HashCode": -1211520344,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.App",
+        "Name": "VisualAlgorithms.Pages.Counter",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.App"
+          "Common.TypeName": "VisualAlgorithms.Pages.Counter"
         }
       },
       {
-        "HashCode": -785824312,
+        "HashCode": 1034396477,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.App",
+        "Name": "VisualAlgorithms.Pages.Counter",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VisualAlgorithms.App"
+            "TagName": "VisualAlgorithms.Pages.Counter"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.App",
+          "Common.TypeName": "VisualAlgorithms.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -408059848,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Shared.NavMenu",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 613680964,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Shared.NavMenu",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisualAlgorithms.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -392,35 +392,35 @@
         }
       },
       {
-        "HashCode": -408059848,
+        "HashCode": 1191760599,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Shared.NavMenu",
+        "Name": "VisualAlgorithms.App",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Shared.NavMenu"
+          "Common.TypeName": "VisualAlgorithms.App"
         }
       },
       {
-        "HashCode": 613680964,
+        "HashCode": -785824312,
         "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Shared.NavMenu",
+        "Name": "VisualAlgorithms.App",
         "AssemblyName": "VisualAlgorithms",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "VisualAlgorithms.Shared.NavMenu"
+            "TagName": "VisualAlgorithms.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Shared.NavMenu",
+          "Common.TypeName": "VisualAlgorithms.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

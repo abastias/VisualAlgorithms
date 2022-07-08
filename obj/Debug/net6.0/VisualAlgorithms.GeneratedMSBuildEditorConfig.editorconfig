@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VisualAlgorithms
 build_property.RootNamespace = VisualAlgorithms
-build_property.ProjectDir = C:\Users\abast\source\repos\VisualAlgorithms\
+build_property.ProjectDir = c:\Users\abast\source\repos\VisualAlgorithms\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abast\source\repos\VisualAlgorithms
+build_property.MSBuildProjectDirectory = c:\Users\abast\source\repos\VisualAlgorithms
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/App.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/Counter.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/Credits.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/Credits.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlZGl0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/FetchData.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/Index.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/KnightsTour.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/KnightsTour.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS25pZ2h0c1RvdXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/Sort.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/Sort.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Shared/SurveyPrompt.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/_Imports.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Shared/MainLayout.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-co82rg4chp
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Shared/NavMenu.razor]
+[c:/Users/abast/source/repos/VisualAlgorithms/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-t6x7h9sxrc
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/Error.cshtml]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/_Host.cshtml]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abast/source/repos/VisualAlgorithms/Pages/_Layout.cshtml]
+[c:/Users/abast/source/repos/VisualAlgorithms/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
