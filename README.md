@@ -2,7 +2,7 @@
 Seeing an execution of any algorithm in visual form allow us a better understanding of the advantages and the disadvantages in the context of use.
 
 # Framework
-This project is completely open-souce. It was created using VSCode and Blazor/.NET Core 6 LTS, the main coude for algoriths is C#
+This project is completely open-souce. It was created using VSCode and Blazor/.NET Core 6 LTS, please use c# for coding algorithms
 
 ## The project was created from an empty folder using the command
     dotnet new blazorserver -f net6.0
