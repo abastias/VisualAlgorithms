@@ -111,72 +111,6 @@
         }
       },
       {
-        "HashCode": -1211520344,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Counter",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 1034396477,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Counter",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VisualAlgorithms.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -554766938,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.FetchData",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": -75172382,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.FetchData",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VisualAlgorithms.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1327645235,
         "Kind": "Components.Component",
         "Name": "VisualAlgorithms.Pages.Index",
@@ -206,6 +140,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "VisualAlgorithms.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1211520344,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Pages.Counter",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 1034396477,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Pages.Counter",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisualAlgorithms.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Pages.Counter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
