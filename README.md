@@ -2,7 +2,7 @@
 Seeing an execution of any algorithm in visual form allows students to better understand the advantages and disadvantages in the context of use.
 
 # Framework
-This project is completely open-souce. It was create using VSCode and Blazor/.NET Core 6 LTS
+This project is completely open-souce. It was created using VSCode and Blazor/.NET Core 6 LTS, the main coude for algoriths is C#
 
 ## The project was created from an empty folder using the command
     dotnet new blazorserver -f net6.0
@@ -15,7 +15,7 @@ This project is completely open-souce. It was create using VSCode and Blazor/.NE
   https://VisualAlgorithms.azurewebsites.net
   
 # Algorithms
-- The Knight's Tour
+- The Knight's Tour (Simple approach)
 - Sorting Algorithms : Bubble Sort and selection Sort.
 
   
