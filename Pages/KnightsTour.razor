@@ -1,0 +1,88 @@
+@page "/KnightsTour"
+<PageTitle>Knight's Tour</PageTitle>
+<h1>The Knight's Tour</h1>
+
+<div class="alert alert-success">
+    <h3>Configuration</h3>
+    <b>Chessboard size:</b> <input @bind="SizeN" style="width:30px;height:22px;text-align: right;" />
+    - <b>Initial Position:</b>
+    <b>Row:</b><input @bind="InitX" style="width:30px;height:22px;text-align: right;" />
+    <b>Col:</b><input @bind="InitY" style="width:30px;height:22px;text-align: right;" />
+
+    - <b>Speed (ms):</b> <input @bind="SpeedSingleStep" style="width:50px;height:22px;text-align: right;" /><br><br>
+    <button @onclick="StartTour">Start the Tour</button>
+    <button @onclick="Reset">Reset Board</button>
+    <button @onclick="RefreshView">Start/Stop Refresh</button>
+</div>
+
+<div class="alert alert-warning">
+
+    <div class="row">
+        <div style="width:40px">
+            @if (IsInTour)
+            {
+                <div class="loader"></div>
+            }
+        </div>
+        <div class="col">
+            <h3> Chessboard
+                @if (!string.IsNullOrEmpty(Message))
+                {
+                    <span> - </span> @Message
+                }
+
+
+                @if (IsInTour)
+                {
+                    <span> - Performing Knight's Tour...</span>
+                }
+            </h3>
+        </div>
+    </div>
+
+    <b>Steps:</b> @Steps.ToString("#,##")<br>
+    <b>Current Knight Step:</b> @CurrentKnightStep.ToString("#,##")<br>
+
+
+
+    <table class="text-center">
+        @for (int i = 0; i < SizeN; i++)
+        {
+            <tr>
+                @for (int j = 0; j < SizeN; j++)
+                {
+                    <td>
+                        @if (Board[i, j] >= 0)
+                        {
+                            @if (Board[i, j] == CurrentKnightStep)
+                            {
+                                <b><span class="iconify" data-icon="akar-icons:chess"></span></b>
+                            }
+                            else
+                            {
+                                <b>@Board[i,j]</b>
+                            }
+
+                        }
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+
+<style>
+    table tr td {
+        width: 30px;
+        height: 30px;
+        border: solid #000 1px;
+    }
+
+    table tr:nth-child(odd) td:nth-child(even) {
+        background: #000;
+    }
+
+    table tr:nth-child(even) td:nth-child(odd) {
+        background: #000;
+    }
+</style>

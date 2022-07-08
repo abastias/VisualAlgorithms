@@ -1,0 +1,60 @@
+@page "/Sort"
+<PageTitle>Sort Algorithms</PageTitle>
+<h1>Sort Algorithms</h1>
+
+
+<div class="alert alert-success">
+    <h3>Configuration</h3>
+    <b>Array size:</b> <input @bind="maxPoints" style="width:60px;height:22px;text-align: right;" />
+    - <b>Step View (animation) :</b> <input @bind="StepView" style="width:60px;height:22px;text-align: right;" />
+    - <b>Delay (Speed) :</b> <input @bind="DelayTime" style="width:60px;height:22px;text-align: right;" />
+
+    <button @onclick="Reset">Reset The Array</button>
+    <button @onclick="BubbleSortClick">Bubble Sort</button>
+    <button @onclick="SelectionSortClick">Selection Sort</button>
+
+    
+
+
+
+</div>
+
+<div class="alert alert-warning">
+     <div class="row">
+        <div style="width:40px">
+            @if (IsSorting)
+            {
+                <div class="loader"></div>
+            }
+        </div>
+        <div class="col">
+    <h3> @MessageTitle
+        @if (!string.IsNullOrEmpty(Message))
+        {
+            <span> - </span> @Message
+        }
+    </h3>
+    
+ 
+</div>
+</div>
+<b>Steps: </b>@Steps.ToString("#,##")<br>
+<b>Swaps: </b>@Swaps.ToString("#,##")<br>
+<b>Execution Time: </b>
+@if (@MessageExecuteTime!=0) 
+{
+    <span>@MessageExecuteTime Secs.</span>
+}
+<br>
+    <div class="" style="display:inline-block;width=100px;">
+
+        @for (int i = 0; i < maxPoints; i++)
+        {
+            String BarStyle;
+            BarStyle = barWidthStyle(i);
+            <div class="line" style=@BarStyle></div>
+        }
+    </div>
+</div>
+
+
