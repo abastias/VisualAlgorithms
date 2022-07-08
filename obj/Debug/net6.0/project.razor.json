@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": -728416698,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Credits",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Credits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Credits"
-        }
-      },
-      {
-        "HashCode": 52462246,
-        "Kind": "Components.Component",
-        "Name": "VisualAlgorithms.Pages.Credits",
-        "AssemblyName": "VisualAlgorithms",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VisualAlgorithms.Pages.Credits"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "VisualAlgorithms.Pages.Credits",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -554766938,
         "Kind": "Components.Component",
         "Name": "VisualAlgorithms.Pages.FetchData",
@@ -206,6 +173,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "VisualAlgorithms.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -728416698,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Pages.Credits",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Credits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Pages.Credits"
+        }
+      },
+      {
+        "HashCode": 52462246,
+        "Kind": "Components.Component",
+        "Name": "VisualAlgorithms.Pages.Credits",
+        "AssemblyName": "VisualAlgorithms",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VisualAlgorithms.Pages.Credits"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "VisualAlgorithms.Pages.Credits",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

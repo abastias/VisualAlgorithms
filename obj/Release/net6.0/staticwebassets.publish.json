@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "Hash": "FBWr60Liu9Bzzg5gD3TenGlepwr1pNCf7fjzN4FBiSQ=",
+  "Hash": "uz1Jtv6oZPe6oDbyIfhWQ+L0xT1ofoV2Lw3ftjKoskc=",
   "Source": "VisualAlgorithms",
   "BasePath": "_content/VisualAlgorithms",
   "Mode": "Default",
-  "ManifestType": "Build",
+  "ManifestType": "Publish",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\bundle\\VisualAlgorithms.styles.css",
+      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\bundle\\VisualAlgorithms.styles.css",
       "SourceId": "VisualAlgorithms",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/VisualAlgorithms",
       "RelativePath": "VisualAlgorithms.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\bundle\\VisualAlgorithms.styles.css"
+      "OriginalItemSpec": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\bundle\\VisualAlgorithms.styles.css"
     },
     {
-      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VisualAlgorithms.bundle.scp.css",
+      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\VisualAlgorithms.bundle.scp.css",
       "SourceId": "VisualAlgorithms",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/VisualAlgorithms",
       "RelativePath": "VisualAlgorithms.bundle.scp.css",
       "AssetKind": "All",
@@ -48,7 +48,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\VisualAlgorithms.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\VisualAlgorithms.bundle.scp.css"
     },
     {
       "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\css\\favicon.ico",
-      "SourceId": "VisualAlgorithms",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\",
-      "BasePath": "_content/VisualAlgorithms",
-      "RelativePath": "css/favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
@@ -270,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\favicon.ico",
+      "SourceId": "VisualAlgorithms",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abast\\source\\repos\\VisualAlgorithms\\wwwroot\\",
+      "BasePath": "_content/VisualAlgorithms",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     }
   ]
 }
