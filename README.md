@@ -18,6 +18,7 @@ This project has the few algoritms. Your help is needed to include more algortim
 
 ## Pi Calculation (Approximation using the Montecarlo simulation approach)
 The method used square with a inside circle. The x-Axis and y-Axis goes from -1 to 1 and the radio for the inside circle is 1. In order to approach this method you can formulate the questions <i>what is the probability of a any random number for a pair (x,y) will be inside the circle?</i> The relation between randon pair from inside to the ouside of the circle provide an approximation of the Pi number.
+
 <img src="/wwwroot/images/Pi_Montecarlo.png" width="200">
 
 ## The Knight's Tour
