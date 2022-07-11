@@ -1,5 +1,5 @@
 # Visual Algorithms
-Seeing an execution of any algorithm in visual form allow us a better understanding of the advantages and the disadvantages in the context of use. This project is completely open-souce. It was created using VSCode and Blazor/.NET Core 6 LTS, please use c# for coding algorithms
+Seeing an execution of any algorithm in visual form allow us a better understanding of the advantages and the disadvantages in the context of use. This project is completely open-souce. It was created using VSCode and Blazor/.NET Core 6 LTS, please use c# to code algorithms
 
 ## The project was created from an empty folder using the command
     dotnet new blazorserver -f net6.0
