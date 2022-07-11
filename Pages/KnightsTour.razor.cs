@@ -166,6 +166,4 @@ public partial class KnightsTour
         else ToggleRefresh = true;
     }
 
-
-
 }

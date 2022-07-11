@@ -51,7 +51,7 @@ public partial class Pi_Calc
     {
         MaxIterations = 10000;
         AcumIteration = 0;
-        Cycles = 20;
+        Cycles = 10;
         Zone = new bool[MaxSize, MaxSize];
         ZoneInside = new bool[MaxSize, MaxSize];
         int CenterX = MaxSize / 2;
