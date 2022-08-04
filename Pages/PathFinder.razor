@@ -1,0 +1,104 @@
+@page "/PathFinder"
+<PageTitle>Pathfinder | Visual Algortitms</PageTitle>
+<h1>Pathfinder</h1>
+
+<div class="alert alert-success">
+    <h3>Configuration</h3>
+    Find a rount from <b>START</b> to  <b>END</b> <br>
+    <b>Start:</b>
+    <b>Row:</b><input @bind="InitX" style="width:50px;height:22px;text-align: right;" />
+    <b>Col:</b><input @bind="InitY" style="width:50px;height:22px;text-align: right;" />
+      - <b>End:</b>
+    <b>Row:</b><input @bind="EndX" style="width:50px;height:22px;text-align: right;" />
+    <b>Col:</b><input @bind="EndY" style="width:50px;height:22px;text-align: right;" />
+      - <b>Refresh View (Steps):</b> <input @bind="RefreshViewSteps" style="width:80px;height:22px;text-align: right;" />
+
+
+    <br>
+    <button @onclick="initmap">Reset map</button>
+    <button @onclick="createBlocks">AddBlocks</button>
+    <button @onclick="createMaze">Add Maze</button>
+    <button @onclick="findRoute">FindRoute</button>
+    
+    
+</div>
+
+<div class="alert alert-warning">
+
+    <div class="row">
+        <div style="width:40px">
+            @if (Running)
+            {
+                <div class="loader"></div>
+            }
+        </div>
+        <div class="col">
+            <h3> Pathfinder 
+                @if (!string.IsNullOrEmpty(Message))
+                {
+                    <span> - </span> @Message
+                }
+
+
+                @if (Running)
+                {
+                    <span> - Finding a route...</span>
+                }
+            </h3>
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        
+        <b>Current Pos: @CurrentX, @CurrentY</b>
+
+        
+     <div class="col-6">
+            <div class="container" style="padding:0;margin:0;width:800px">
+
+                @for (int j = 0; j <maxHeight; j++)
+                {
+                    <div class="row" style="padding:0;margin:0;height:4px;">
+                        @for (int i = 0; i < maxWidth; i++)
+                        {
+                            @if ((i==InitX && j==InitY) || (i==EndX && j==EndY))
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:green;"></div>
+
+                            }
+                            else if (map[i,j] == -1) //Block
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:black;"></div>
+                            }
+                            else if (map[i,j] == -2) //Backtracking mark
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:gray;"></div>
+                            }
+
+                            else if (map[i,j] == 0) 
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:white;"></div>
+                            }
+                            else if (map[i,j] == 1)
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:green;"></div>
+                            }
+                            else if (map[i, j] == 8)
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:blue;"></div>
+                            }
+                            else if (map[i, j] == 9)
+                            {
+                                <div class="col" style="padding:0;margin:0;width:4px;background-color:white;"></div>
+                            }
+                        }
+
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>

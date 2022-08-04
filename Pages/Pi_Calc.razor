@@ -5,15 +5,15 @@
 <div class="alert alert-success">
     <h3>Configuration</h3>
 
- <button @onclick="Pi_MonteCarloRun">Star/Continue Pi Calc</button>
- <button @onclick="Reset">Reset</button>
+    <button @onclick="Pi_MonteCarloRun">Star/Continue Pi Calc</button>
+    <button @onclick="Reset">Reset</button>
 
 
-<br>
-<b>Iteration per Cycle:</b> <input @bind="MaxIterations" style="width:70px;height:22px;text-align: right;" />
-<b>Cycles:</b> <input @bind="Cycles" style="width:70px;height:22px;text-align: right;" />
+    <br>
+    <b>Iteration per Cycle:</b> <input @bind="MaxIterations" style="width:70px;height:22px;text-align: right;" />
+    <b>Cycles:</b> <input @bind="Cycles" style="width:70px;height:22px;text-align: right;" />
 
-    
+
 
 </div>
 
@@ -22,7 +22,7 @@
 
 <div class="alert alert-warning">
 
- 
+
 
     <div class="row">
         <div style="width:40px">
@@ -47,102 +47,112 @@
         </div>
     </div>
 
-  
- <div class="row">
-   <div>
-<b>Total Iteration:</b> @AcumIteration.ToString("#,##") - <b>Inside: </b> @Inside.ToString("#,##")  - <b>Outside:</b> @Outside.ToString("#,##")  - <b>Pi Calc: @PiCalcAcum.ToString("n7") </b> - <b>Error: </b> @PiErrorAcum.ToString("n5")% <br><br>
-</div>
-      <div class="col-6">
-       <div class="container" style="padding:0;margin:0;width:400px" >
-         @for (int i = 0; i < MaxSize; i++)
-        {
-            <div class="row" style="padding:0;margin:0;height:2px;">
-                @for (int j = 0; j < MaxSize; j++)
-                {
-                      @if(Zone[i,j])
-                    {
-                        @if(ZoneInside[i,j])
-                        {
-                    <div class="col" style="padding:0;margin:0;width:2px;background-color:green;"></div>
-                        }
-                        else
-                        {
-                    <div class="col" style="padding:0;margin:0;width:2px;background-color:blue;"></div>
-                        }
 
-                    }
-                    else {
-                    <div class="col" style="padding:0;margin:0;width:2px;background-color:gray;"></div>
-                    }
-                }
-
-            </div>    
-        }
+    <div class="row">
+        <div>
+            <b>Total Iteration:</b> @AcumIteration.ToString("#,##") - <b>Inside: </b> @Inside.ToString("#,##") -
+            <b>Outside:</b> @Outside.ToString("#,##") - <b>Pi Calc: @PiCalcAcum.ToString("n7") </b> - <b>Error: </b>
+            @PiErrorAcum.ToString("n5")% <br><br>
         </div>
-      </div>
-      <div class="col-6">
-        
-        <table class="table table-striped table-bordered  table-hover" style="text-align:right;">
-             <thead>
-            <tr>
-                
-                <th scope="col">Inside</th>
-                <th>Outside</th>
-                <th>Pi Calc</th>
-                <th>Pi Error</th>
-                <th>Pi Calc Acum</th>
-                <th>Pi Error Acum</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach(var item in Data)
-            {
-                <tr>
-                    <td>@item.Inside.ToString("#,##")</td>
-                    <td>@item.Outside.ToString("#,##")</td>
-                    <td>@item.PiCalc.ToString("n7")</td>
-                    <td>@item.PiError.ToString("n5")</td>
-                    <td>@item.PiCalcAcum.ToString("n7")</td>
-                    <td>@item.PiErrorAcum.ToString("n5")</td>
-                </tr>
-            }
-            </tbody>
-        </table>
-      </div>
+        <div class="col-6">
+            <div class="container" style="padding:0;margin:0;width:400px">
+                @for (int i = 0; i < MaxSize; i++)
+                {
+                    <div class="row" style="padding:0;margin:0;height:2px;">
+                        @for (int j = 0; j < MaxSize; j++)
+                        {
+                            @if (Zone[i, j])
+                            {
+                                @if (ZoneInside[i, j])
+                                {
+                                    <div class="col" style="padding:0;margin:0;width:2px;background-color:green;"></div>
+                                }
+                                else
+                                {
+                                    <div class="col" style="padding:0;margin:0;width:2px;background-color:blue;"></div>
+                                }
+
+                            }
+                            else
+                            {
+                                <div class="col" style="padding:0;margin:0;width:2px;background-color:gray;"></div>
+                            }
+                        }
+
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-6">
+
+            <table class="table table-striped table-bordered  table-hover" style="text-align:right;">
+                <thead>
+                    <tr>
+
+                        <th scope="col">Inside</th>
+                        <th>Outside</th>
+                        <th>Pi Calc</th>
+                        <th>Pi Error</th>
+                        <th>Pi Calc Acum</th>
+                        <th>Pi Error Acum</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Data)
+                    {
+                        <tr>
+                            <td>@item.Inside.ToString("#,##")</td>
+                            <td>@item.Outside.ToString("#,##")</td>
+                            <td>@item.PiCalc.ToString("n7")</td>
+                            <td>@item.PiError.ToString("n5")</td>
+                            <td>@item.PiCalcAcum.ToString("n7")</td>
+                            <td>@item.PiErrorAcum.ToString("n5")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
-     <div class="alert alert-success">
-        <h2>Simple method to calculate Pi using Montecarlo simulation</h2>
-<p >The method used square with a inside circle. The x-Axis and y-Axis goes from -1 to 1 and the radio for the inside circle is 1.</p>
-<p >In order to approach this method you can formulate the questions <strong><em>what is the probability of a any random number for a pair (x,y) will be inside the circle?</em></strong>. Let’s define <em>P</em> as this probability</p>
-<img src="https://render.githubusercontent.com/render/math?math=P = \frac{Possible Cases}{Total Cases}= \frac{Circle Area}{Square Area}">
-<p>Lest’s calculate the area of a square, and a circle inside the square. We can asume the cicle radio is <strong>r</strong>, and the side of the square is <strong>2r</strong></p>
-<img src="https://render.githubusercontent.com/render/math?math=SquareArea = \ (2*r)*(2*r) = 4*r^2">
-<img src="https://render.githubusercontent.com/render/math?math=CicleArea = \Pi*r^2">
+<div class="alert alert-success">
+    <h2>Simple method to calculate Pi using Montecarlo simulation</h2>
+    <p>The method used square with a inside circle. The x-Axis and y-Axis goes from -1 to 1 and the radio for the inside
+        circle is 1.</p>
+    <p>In order to approach this method you can formulate the questions <strong><em>what is the probability of a any
+                random number for a pair (x,y) will be inside the circle?</em></strong>. Let’s define <em>P</em> as this
+        probability</p>
+    <img
+        src="https://render.githubusercontent.com/render/math?math=P = \frac{Possible Cases}{Total Cases}= \frac{Circle Area}{Square Area}">
+    <p>Lest’s calculate the area of a square, and a circle inside the square. We can asume the cicle radio is
+        <strong>r</strong>, and the side of the square is <strong>2r</strong></p>
+    <img src="https://render.githubusercontent.com/render/math?math=SquareArea = \ (2*r)*(2*r) = 4*r^2">
+    <img src="https://render.githubusercontent.com/render/math?math=CicleArea = \Pi*r^2">
+    <p>So, the Probability can be calculated as</p>
 
-<p>So, the Probability can be calculated as</p>
+    <img src="https://render.githubusercontent.com/render/math?math=P = \frac{4r^2}{\pi*r^2} = \frac{\pi}{4}">
+    <p>The calculated<br>
+
+        <img src="https://render.githubusercontent.com/render/math?math=\pi = 4* P">
+    </p>
 
 
-<img src="https://render.githubusercontent.com/render/math?math=P = \frac{4r^2}{\pi*r^2} = \frac{\pi}{4}">
-<p >The calculated<br>
+    <p><strong>The Montecarlo approach</strong>. In order to apply this method using the Montecarlo simulation, we need
+        to have a set of point (x,y) and we need to calculate the aproximation for the probability. This probabilty P is
+        obtained dividing the <em>cases inside the circle by the total of iteration</em>. Remember, our square is -1 to
+        1, and the circle has a radio r=1. In order to know if a par(x,y) is inside the cicle We need to calculate the
+        distance to the center of the square, the coordenates (0,0). If the distance is less or equal to 1, the point in
+        inside the circle. Using Pythagoras theorem, we calculate the distance <em>D</em> as</p>
 
-<img src="https://render.githubusercontent.com/render/math?math=\pi = 4* P">
-</p>
-
-
-<p><strong>The Montecarlo approach</strong>. In order to apply this method using the Montecarlo simulation, we need to have a set of point (x,y) and we need to calculate the aproximation for the probability. This probabilty P is obtained dividing the <em>cases inside the circle by the total of iteration</em>. Remember, our square is -1 to 1, and the circle has a radio r=1. In order to know if a par(x,y) is inside the cicle  We need to calculate the distance to the center of the square, the coordenates (0,0). If the distance is less or equal to 1, the point in inside the circle. Using Pythagoras theorem, we calculate the distance <em>D</em> as</p>
-
-<img src="https://render.githubusercontent.com/render/math?math=\Distance = \sqrt{x^2 %2B y^2}">
-<p >Because our radio is equal to 1, we can use the next equation to figure out is the point is inside the cirle</p>
-<img src="https://render.githubusercontent.com/render/math?math=\x^2 %2B y^2 <=1">
-<p>So,</p>
-<img src="https://render.githubusercontent.com/render/math?math=\CalcPi = 4* \frac{Possible Cases}{Total Cases}">
-<p>Steps:</p>
-<ol>
-<li>Generate a set(x,y) of uniform random number from -1 to 1. This set will identify a position inside the square.</li>
-<li>Identify the number of cases that are inside the circle.</li>
-<li>Calculate the probabilty of the any set (x,y) will be inside the circle and estimate Pi</li>
-</ol>
-     </div>
-    
-
+    <img src="https://render.githubusercontent.com/render/math?math=\Distance = \sqrt{x^2 %2B y^2}">
+    <p>Because our radio is equal to 1, we can use the next equation to figure out is the point is inside the cirle</p>
+    <img src="https://render.githubusercontent.com/render/math?math=\x^2 %2B y^2 <=1">
+    <p>So,</p>
+    <img src="https://render.githubusercontent.com/render/math?math=\CalcPi = 4* \frac{Possible Cases}{Total Cases}">
+    <p>Steps:</p>
+    <ol>
+        <li>Generate a set(x,y) of uniform random number from -1 to 1. This set will identify a position inside the
+            square.</li>
+        <li>Identify the number of cases that are inside the circle.</li>
+        <li>Calculate the probabilty of the any set (x,y) will be inside the circle and estimate Pi</li>
+    </ol>
+</div>
