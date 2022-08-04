@@ -51,7 +51,8 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
   Your are invited to collaborate with this project to help other to undesrand algorithms.
   - Please pickup your favourite algorithms.
   - Create or improve a razor component.
-  - Create a minimun interaction with input boxers and excution buttons.
+  - Create a necesary interaction with input boxers and execution buttons.
   - Make sure the razor is accesible from the side menu bar.
+  - Blazor has memory restriction, be aware if you use recursion.
   
 
