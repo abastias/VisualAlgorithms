@@ -16,6 +16,11 @@ Seeing an execution of any algorithm in visual form allow us a better understand
 # Algorithms
 This project has few algorithms. Your help is needed.
 
+## Pathfinder
+Getting from point A to Point B is always a challenge. There are several algorithms to find the most efficient route. This is a first approach to findding a route using a simple algorithm that optimizes the minimum distance from the current position to the destination (Point B) of each step. This is not the best solution, but the purpose is to show an idea how to do it. 
+
+<img src="/wwwroot/images/Pathfinder.png" width="350">
+
 ## Pi calculation using the Monte Carlo method
 The method used square with a inside circle. The x-Axis and y-Axis goes from -1 to 1 and the radio for the inside circle is 1. In order to approach this method you can formulate the questions <i>what is the probability of a any random number for a pair (x,y) will be inside the circle?</i> The relation between randon inside pair to the ouside of the circle provides an approximation of the Pi number.
 
