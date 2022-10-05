@@ -1,0 +1,95 @@
+@page "/Sudoku"
+<PageTitle>Sudoku Solver Algorithm</PageTitle>
+<h1>Sudoku Solver</h1>
+
+<div class="alert alert-success">
+    <h3>Configuration</h3>
+     <b>Random Set:</b> <input @bind="RandomSetNum" style="width:60px;height:22px;text-align: right;" /> 
+     <b>Random Pack:</b> <input @bind="RandomPackNum" style="width:60px;height:22px;text-align: right;" />
+
+     <b>Iteration(Steps) Refresh:</b> <input @bind="IterationsRefresh" style="width:60px;height:22px;text-align: right;" /><br><br>
+    <button @onclick="Clear">Clear Board</button>
+    <button @onclick="Reset">Reset Board</button>
+    
+    <button @onclick="RandomSet">Random Set</button>
+    <button @onclick="RandomPack">Random Pack</button>
+
+    <button @onclick="Solve">Solve</button>
+
+    
+    <button @onclick="Stop">Stop</button>
+ 
+
+</div>
+
+
+<div class="alert alert-warning">
+
+     <div class="row">
+         <div style="width:40px">
+            @if (IsRunning)
+            {
+                <div class="loader"></div>
+            }
+        </div>
+        <div class="col">
+            <h3> Sudoku Board
+                @if (!string.IsNullOrEmpty(Message))
+                {
+                    <span> - </span> @Message
+                }
+
+
+                @if (IsRunning)
+                {
+                    <span> - Solving ...</span>
+                }
+            </h3>
+        </div>
+     </div>
+ <b>Steps:</b> @Steps.ToString("#,##")<br>
+<table>
+  <colgroup><col><col><col></colgroup>
+  <colgroup><col><col><col></colgroup>
+  <colgroup><col><col><col></colgroup>
+
+  
+  @for (int k=0; k<3; k++)
+  {
+  <tbody>
+    @for (int j = 3*k; j < 3*(k+1); j++)
+    {
+    <tr> 
+         @for (int i = 0; i < 9; i++)
+         {
+            @if (board[j][i]==originalBoard[j][i])
+            {
+                <td><span style="font-weight:bold;">@board[j][i] </span></td>
+
+            }
+            else{
+               <td>@board[j][i] </td>
+               }
+            }
+    </tr>
+    }
+    </tbody>
+  }
+
+
+
+   
+
+
+
+
+</table>
+
+</div>
+
+
+<style>
+table { border-collapse: collapse; font-family: Calibri, sans-serif; }
+colgroup, tbody { border: solid medium; }
+td { border: solid thin; height: 1.5em; width: 1.5em; text-align: center; padding: 0; }
+</style>
