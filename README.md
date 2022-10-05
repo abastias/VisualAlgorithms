@@ -16,6 +16,12 @@ Seeing an execution of any algorithm in visual form allow us a better understand
 # Algorithms
 This project has few algorithms. Your help is needed.
 
+## Sudoku
+A puzzle in which players insert the numbers one to nine into a grid consisting of nine squares subdivided into a further nine smaller squares in such a way that every number appears once in each horizontal line, vertical line, and square.
+We define a initial setup and the algorithm (Backtracking) will find a solution (if exists) 
+
+<img src="/wwwroot/images/Sudoku.png" width="250">
+
 ## Pathfinder
 Getting from point A to Point B is always a challenge. There are several algorithms to find the most efficient route. This is a first approach to findding a route using a simple algorithm that optimizes the minimum distance from the current position to the destination (Point B) of each step. This is not the best solution, but the purpose is to show an idea how to do it. 
 
@@ -48,7 +54,7 @@ The selection sort algorithm sorts an array by repeatedly finding the minimum el
 
   
 # Contributors
-  Your are invited to collaborate with this project to help other to undesrand algorithms.
+  Your are invited to collaborate with this project to help other to understand algorithms.
   - Please pickup your favourite algorithms.
   - Create or improve a razor component.
   - Create a necesary interaction with input boxers and execution buttons.
